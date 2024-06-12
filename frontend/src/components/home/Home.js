@@ -16,7 +16,7 @@ function Home() {
       try {
         const response = await fetch("http://localhost:5000/allPost", {
           method: "GET",
-          headers: {
+          headers: {  
             "Content-Type": "application/json",
           },
         });
